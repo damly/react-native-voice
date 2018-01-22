@@ -5,7 +5,7 @@
 const recognizers = [
     {
         name: 'iflytek',
-        appId: '57e66aab',
+        appId: '',
         lanauges: [
             {code: "zh", value: "zh_cn"},
             {code: "zh-CN", value: "zh_cn"},
@@ -18,9 +18,9 @@ const recognizers = [
     },
     {
         name: 'baidu',
-        appId: '10270701',
-        appKey: 'd4c4URjGtHiGGd4s1kiUlKz2',
-        secretKey: '6420bc81f92c79af18f71381c1a0047e',
+        appId: '',
+        appKey: '',
+        secretKey: '',
         lanauges: [
             {code: "zh", value: "zh"},
             {code: "zh-CN", value: "zh"},
@@ -33,7 +33,7 @@ const recognizers = [
     },
     {
         name: 'microsoft',
-        subscriptionKey: '363ba0486a88411389867de810054230',
+        subscriptionKey: '',
         lanauges: [
             {code:"zh", value: "zh-CN"},
             {code:"zh-CN", value: "zh-CN"},
@@ -73,7 +73,7 @@ const recognizers = [
 const synthesizers = [
     {
         name: 'iflytek',
-        appId: '57e66aab',
+        appId: '',
         lanauges: [
             {code: "zh", voices: {female: "xiaoyan", male: "xiaoyu"}},
             {code: "zh-CN", voices: {female: "xiaoyan", male: "xiaoyu"}},
@@ -91,9 +91,9 @@ const synthesizers = [
     },
     {
         name: 'baidu',
-        appId: '10270701',
-        appKey: 'd4c4URjGtHiGGd4s1kiUlKz2',
-        secretKey: '6420bc81f92c79af18f71381c1a0047e',
+        appId: '',
+        appKey: '',
+        secretKey: '',
         lanauges: [
             {code: "zh", voices: {female: "0", male: "1"}},
             {code: "zh-CN", voices: {female: "0", male: "1"}},
@@ -111,7 +111,7 @@ const synthesizers = [
     },
     {
         name: 'microsoft',
-        subscriptionKey: '363ba0486a88411389867de810054230',
+        subscriptionKey: '',
         lanauges: [
             {code:'ar-EG', voices:{female: 'Microsoft Server Speech Text to Speech Voice (ar-EG, Hoda)', male: 'Microsoft Server Speech Text to Speech Voice (ar-EG, Hoda)'}},
             {code:'ar-SA', voices:{female: 'Microsoft Server Speech Text to Speech Voice (ar-SA, Naayf)', male: 'Microsoft Server Speech Text to Speech Voice (ar-SA, Naayf)'}},
