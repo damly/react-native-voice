@@ -1,0 +1,41 @@
+{
+  "_from": "git+https://github.com/damly/react-native-voice.git",
+  "_id": "react-native-voice@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-vhB2oXDndyTNcQIJzs+ta3vTHAc=",
+  "_location": "/react-native-voice",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/damly/react-native-voice.git",
+    "rawSpec": "https://github.com/damly/react-native-voice.git",
+    "saveSpec": "git+https://github.com/damly/react-native-voice.git",
+    "fetchSpec": "https://github.com/damly/react-native-voice.git",
+    "gitCommittish": "master"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/damly/react-native-voice.git#6ed78435d70ff40bb1433486b2a21076009eeb35",
+  "_spec": "https://github.com/damly/react-native-voice.git",
+  "_where": "/Users/damly/work/voice/speech",
+  "author": {
+    "name": "damly",
+    "email": "8051263@qq.com"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "React Native ASR and TTS",
+  "keywords": [
+    "react-native",
+    "audio",
+    "record",
+    "pcm"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-voice",
+  "nativePackage": true,
+  "version": "1.0.0"
+}

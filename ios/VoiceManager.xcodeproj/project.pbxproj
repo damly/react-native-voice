@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37E2EAE020103D0700AFEA62 /* BaiduRecognizerModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2EADF20103D0700AFEA62 /* BaiduRecognizerModule.m */; };
+		37E2EAE420103D4300AFEA62 /* PcmRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2EAE320103D4300AFEA62 /* PcmRecorder.m */; };
+		37E2EAF32010956600AFEA62 /* MicrosoftRecognizerModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2EAF22010956600AFEA62 /* MicrosoftRecognizerModule.m */; };
+		37E2EAF72010ACA800AFEA62 /* MicrosoftSynthesizerModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2EAF62010ACA800AFEA62 /* MicrosoftSynthesizerModule.m */; };
+		37E2EB302010DB9F00AFEA62 /* BaiduSynthesizerModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2EB2F2010DB9F00AFEA62 /* BaiduSynthesizerModule.m */; };
+		37E2EB3520117A9C00AFEA62 /* IflytekSynthesizerModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2EB3420117A9C00AFEA62 /* IflytekSynthesizerModule.m */; };
+		37E2EB3720117AC800AFEA62 /* IflytekRecognizerModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2EB3620117AC800AFEA62 /* IflytekRecognizerModule.m */; };
+		37E2EB7720119DAA00AFEA62 /* PcmPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2EB7620119DAA00AFEA62 /* PcmPlayer.m */; };
+		37E2EB7A2011A47F00AFEA62 /* VoiceRecognizerJsEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2EB792011A47F00AFEA62 /* VoiceRecognizerJsEvent.m */; };
+		37E2EB7C2011ACE300AFEA62 /* VoiceSynthesizerJsEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2EB7B2011ACE300AFEA62 /* VoiceSynthesizerJsEvent.m */; };
+		37E2EB822011E06B00AFEA62 /* AVAudioPlayer+PCM.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2EB812011E06B00AFEA62 /* AVAudioPlayer+PCM.m */; };
+		37E2EB882011F3C400AFEA62 /* AudioFileConvertOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2EB872011F3C400AFEA62 /* AudioFileConvertOperation.m */; };
+		37E2EB8C2011F5D600AFEA62 /* MpgaConver.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2EB8B2011F5D600AFEA62 /* MpgaConver.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		37F1EA93200C38B5008EB16B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		37E2EADF20103D0700AFEA62 /* BaiduRecognizerModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaiduRecognizerModule.m; sourceTree = "<group>"; };
+		37E2EAE120103D1300AFEA62 /* BaiduRecognizerModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaiduRecognizerModule.h; sourceTree = "<group>"; };
+		37E2EAE220103D2600AFEA62 /* PcmRecorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PcmRecorder.h; sourceTree = "<group>"; };
+		37E2EAE320103D4300AFEA62 /* PcmRecorder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PcmRecorder.m; sourceTree = "<group>"; };
+		37E2EAF22010956600AFEA62 /* MicrosoftRecognizerModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MicrosoftRecognizerModule.m; sourceTree = "<group>"; };
+		37E2EAF42010957200AFEA62 /* MicrosoftRecognizerModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MicrosoftRecognizerModule.h; sourceTree = "<group>"; };
+		37E2EAF52010AC9600AFEA62 /* MicrosoftSynthesizerModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MicrosoftSynthesizerModule.h; sourceTree = "<group>"; };
+		37E2EAF62010ACA800AFEA62 /* MicrosoftSynthesizerModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MicrosoftSynthesizerModule.m; sourceTree = "<group>"; };
+		37E2EB2F2010DB9F00AFEA62 /* BaiduSynthesizerModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaiduSynthesizerModule.m; sourceTree = "<group>"; };
+		37E2EB312010DBAD00AFEA62 /* BaiduSynthesizerModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaiduSynthesizerModule.h; sourceTree = "<group>"; };
+		37E2EB3320117A8E00AFEA62 /* IflytekSynthesizerModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IflytekSynthesizerModule.h; sourceTree = "<group>"; };
+		37E2EB3420117A9C00AFEA62 /* IflytekSynthesizerModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IflytekSynthesizerModule.m; sourceTree = "<group>"; };
+		37E2EB3620117AC800AFEA62 /* IflytekRecognizerModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IflytekRecognizerModule.m; sourceTree = "<group>"; };
+		37E2EB3820117AD500AFEA62 /* IflytekRecognizerModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IflytekRecognizerModule.h; sourceTree = "<group>"; };
+		37E2EB7520119D9700AFEA62 /* PcmPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PcmPlayer.h; sourceTree = "<group>"; };
+		37E2EB7620119DAA00AFEA62 /* PcmPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PcmPlayer.m; sourceTree = "<group>"; };
+		37E2EB782011A46300AFEA62 /* VoiceRecognizerJsEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VoiceRecognizerJsEvent.h; sourceTree = "<group>"; };
+		37E2EB792011A47F00AFEA62 /* VoiceRecognizerJsEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoiceRecognizerJsEvent.m; sourceTree = "<group>"; };
+		37E2EB7B2011ACE300AFEA62 /* VoiceSynthesizerJsEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoiceSynthesizerJsEvent.m; sourceTree = "<group>"; };
+		37E2EB7D2011ACEF00AFEA62 /* VoiceSynthesizerJsEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VoiceSynthesizerJsEvent.h; sourceTree = "<group>"; };
+		37E2EB802011E05B00AFEA62 /* AVAudioPlayer+PCM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AVAudioPlayer+PCM.h"; sourceTree = "<group>"; };
+		37E2EB812011E06B00AFEA62 /* AVAudioPlayer+PCM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AVAudioPlayer+PCM.m"; sourceTree = "<group>"; };
+		37E2EB872011F3C400AFEA62 /* AudioFileConvertOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioFileConvertOperation.m; sourceTree = "<group>"; };
+		37E2EB892011F3D400AFEA62 /* AudioFileConvertOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioFileConvertOperation.h; sourceTree = "<group>"; };
+		37E2EB8A2011F5AA00AFEA62 /* MpgaConver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MpgaConver.h; sourceTree = "<group>"; };
+		37E2EB8B2011F5D600AFEA62 /* MpgaConver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MpgaConver.m; sourceTree = "<group>"; };
+		37F1EA95200C38B5008EB16B /* libVoiceManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libVoiceManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37F1EA92200C38B5008EB16B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37F1EA8C200C38B5008EB16B = {
+			isa = PBXGroup;
+			children = (
+				37E2EB8B2011F5D600AFEA62 /* MpgaConver.m */,
+				37E2EB8A2011F5AA00AFEA62 /* MpgaConver.h */,
+				37E2EB892011F3D400AFEA62 /* AudioFileConvertOperation.h */,
+				37E2EB872011F3C400AFEA62 /* AudioFileConvertOperation.m */,
+				37E2EB812011E06B00AFEA62 /* AVAudioPlayer+PCM.m */,
+				37E2EB802011E05B00AFEA62 /* AVAudioPlayer+PCM.h */,
+				37E2EB7D2011ACEF00AFEA62 /* VoiceSynthesizerJsEvent.h */,
+				37E2EB7B2011ACE300AFEA62 /* VoiceSynthesizerJsEvent.m */,
+				37E2EB792011A47F00AFEA62 /* VoiceRecognizerJsEvent.m */,
+				37E2EB782011A46300AFEA62 /* VoiceRecognizerJsEvent.h */,
+				37E2EB7620119DAA00AFEA62 /* PcmPlayer.m */,
+				37E2EB7520119D9700AFEA62 /* PcmPlayer.h */,
+				37E2EB3820117AD500AFEA62 /* IflytekRecognizerModule.h */,
+				37E2EB3620117AC800AFEA62 /* IflytekRecognizerModule.m */,
+				37E2EB3320117A8E00AFEA62 /* IflytekSynthesizerModule.h */,
+				37E2EB3420117A9C00AFEA62 /* IflytekSynthesizerModule.m */,
+				37E2EAF52010AC9600AFEA62 /* MicrosoftSynthesizerModule.h */,
+				37E2EAF62010ACA800AFEA62 /* MicrosoftSynthesizerModule.m */,
+				37E2EAF42010957200AFEA62 /* MicrosoftRecognizerModule.h */,
+				37E2EAF22010956600AFEA62 /* MicrosoftRecognizerModule.m */,
+				37E2EAE320103D4300AFEA62 /* PcmRecorder.m */,
+				37E2EAE220103D2600AFEA62 /* PcmRecorder.h */,
+				37E2EAE120103D1300AFEA62 /* BaiduRecognizerModule.h */,
+				37E2EADF20103D0700AFEA62 /* BaiduRecognizerModule.m */,
+				37E2EB312010DBAD00AFEA62 /* BaiduSynthesizerModule.h */,
+				37E2EB2F2010DB9F00AFEA62 /* BaiduSynthesizerModule.m */,
+				37F1EA96200C38B5008EB16B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37F1EA96200C38B5008EB16B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37F1EA95200C38B5008EB16B /* libVoiceManager.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37F1EA94200C38B5008EB16B /* VoiceManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37F1EA9E200C38B5008EB16B /* Build configuration list for PBXNativeTarget "VoiceManager" */;
+			buildPhases = (
+				37F1EA91200C38B5008EB16B /* Sources */,
+				37F1EA92200C38B5008EB16B /* Frameworks */,
+				37F1EA93200C38B5008EB16B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoiceManager;
+			productName = VoiceManager;
+			productReference = 37F1EA95200C38B5008EB16B /* libVoiceManager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37F1EA8D200C38B5008EB16B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = damly;
+				TargetAttributes = {
+					37F1EA94200C38B5008EB16B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6HZ9598FJM;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 37F1EA90200C38B5008EB16B /* Build configuration list for PBXProject "VoiceManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 37F1EA8C200C38B5008EB16B;
+			productRefGroup = 37F1EA96200C38B5008EB16B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37F1EA94200C38B5008EB16B /* VoiceManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37F1EA91200C38B5008EB16B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E2EAF32010956600AFEA62 /* MicrosoftRecognizerModule.m in Sources */,
+				37E2EB7A2011A47F00AFEA62 /* VoiceRecognizerJsEvent.m in Sources */,
+				37E2EB882011F3C400AFEA62 /* AudioFileConvertOperation.m in Sources */,
+				37E2EAE420103D4300AFEA62 /* PcmRecorder.m in Sources */,
+				37E2EB7C2011ACE300AFEA62 /* VoiceSynthesizerJsEvent.m in Sources */,
+				37E2EB3720117AC800AFEA62 /* IflytekRecognizerModule.m in Sources */,
+				37E2EB7720119DAA00AFEA62 /* PcmPlayer.m in Sources */,
+				37E2EAE020103D0700AFEA62 /* BaiduRecognizerModule.m in Sources */,
+				37E2EB3520117A9C00AFEA62 /* IflytekSynthesizerModule.m in Sources */,
+				37E2EB8C2011F5D600AFEA62 /* MpgaConver.m in Sources */,
+				37E2EB302010DB9F00AFEA62 /* BaiduSynthesizerModule.m in Sources */,
+				37E2EB822011E06B00AFEA62 /* AVAudioPlayer+PCM.m in Sources */,
+				37E2EAF72010ACA800AFEA62 /* MicrosoftSynthesizerModule.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		37F1EA9C200C38B5008EB16B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		37F1EA9D200C38B5008EB16B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37F1EA9F200C38B5008EB16B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6HZ9598FJM;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/libs";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		37F1EAA0200C38B5008EB16B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6HZ9598FJM;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/libs";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37F1EA90200C38B5008EB16B /* Build configuration list for PBXProject "VoiceManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37F1EA9C200C38B5008EB16B /* Debug */,
+				37F1EA9D200C38B5008EB16B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37F1EA9E200C38B5008EB16B /* Build configuration list for PBXNativeTarget "VoiceManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37F1EA9F200C38B5008EB16B /* Debug */,
+				37F1EAA0200C38B5008EB16B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37F1EA8D200C38B5008EB16B /* Project object */;
+}
